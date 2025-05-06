@@ -448,8 +448,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-join-an-internship-program-at-musahino-university-at-tokyo-japan",
+          title: 'Join an internship program at Musahino University at Tokyo, Japan',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
