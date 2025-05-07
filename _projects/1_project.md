@@ -1,81 +1,68 @@
 ---
 layout: page
-title: project 1
+title: The Tale of the Shattered Queen
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/homepage_project1.jpg
 importance: 1
-category: work
+category: fun
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Concept statement
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The Tale of the Shattered Pig Queen is a 2D Platform Shooter game with elements of Rogue-like progression, fighting against multiple bosses and upgrading their character to slay the final boss and save the pig queen.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+# Genre(s)
++ 2D Platform Shooter
++ Run and Gun
++ Rogue-like
++ Single-player
++ Boss battle
+
+# Main Story
+
+In the heart of the Pig Kingdom lies the Pig Queen, a powerful and benevolent ruler whose magic keeps the land in harmony. But one fateful day, the Final Boss (Temp name), a malevolent entity from a dark realm, strikes the Pig Queen with a devastating blow. As the Queen falls, her soul is shattered into four fragments, each representing a piece of her power and essence.
+
+The fragments scatter across the kingdom, each piece guarded by a formidable boss who was once loyal to the Queen but is now corrupted by the dark magic of the Final Boss. The kingdom plunges into chaos as the Queen's influence wanes, and the once-peaceful lands are overrun by darkness.
+
+As the chosen hero, it is your duty to restore the Pig Queen’s soul and save the kingdom. You must journey through the four distinct areas of the kingdom, each with its unique challenges and dangers. In each area, you will face a powerful boss corrupted by the darkness, guarding a fragment of the Queen’s soul. With each victory, a piece of the Queen's essence is restored, bringing hope back to the land.
+
+But the journey doesn’t end there. Once you’ve collected the four soul fragments, you realize that you require a mystical potion capable of reviving the Pig Queen which is guarded by the true challenge: the Final Boss. In the climactic battle, you must defeat this ultimate evil to claim the mystical potion and in combination with all of the Queen’s soul can the Pig Queen be revived, restoring peace and order to the kingdom.
+
+The fate of the kingdom rests in your hands. Will you be able to conquer the darkness, restore the Queen, and bring light back to the land?
+
+# Technical details
+This project utilizes the Python-based Pygame library to create an interactive 2D game experience. It is built with a strong emphasis on object-oriented programming (OOP) principles, making the codebase modular, maintainable, and scalable. Core game elements—such as characters, enemies, projectiles, and environments—are represented through well-defined classes that encapsulate both behavior and state.
+
+The game loop is structured around Pygame’s event-driven architecture, with efficient update and render cycles that manage user input, physics, collision detection, animation states, and level progression. In addition, the project implements a custom state management system for game scenes, allowing seamless transitions between the main menu, gameplay, pause, and game-over screens.
+
+Graphics and sprite animations are loaded and managed using sprite sheets, while sound effects and music are integrated to enhance immersion. The project also features basic AI for enemy behavior, modular level design, and a rudimentary UI system for health bars, inventory, and score tracking.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/homepage_project1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/shopUpgrade_project1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/boss_project1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    These are examples of our game features having many bosses, item upgrade, and etc.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/endGame_project1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    World map and ending page.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Feel free to play our game at  <a href="https://github.com/PannathornSathira/the_tale_of_the_shattered_pig_queen">the_tale_of_the_shattered_pig_queen</a> 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
 ```
 
 {% endraw %}

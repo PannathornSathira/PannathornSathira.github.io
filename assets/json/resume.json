@@ -72,18 +72,6 @@
         "Developed fake speech detection system",
         "Utilized R, MATLAB, Python, and machine learning"
       ]
-    },
-    {
-      "name": "Chula LegalTech Competition 2023",
-      "position": "Semi-finalist",
-      "url": "",
-      "startDate": "2022-12-01",
-      "endDate": "2023-02-01",
-      "summary": "Designed and prototyped an e-book platform as a permanent reading solution and presented to legal and commercial professionals.",
-      "highlights": [
-        "Designed and implemented e-book platform",
-        "Presented prototype to legal and commercial professionals"
-      ]
     }
   ],
   "volunteer": [
@@ -143,6 +131,13 @@
       "awarder": "Sirindhorn International Institute of Technology",
       "url": "",
       "summary": "Awarded for excellence in academic performance and conduct."
+    },
+    {
+      "title": "Best paper award of iSAI-NLP-AIoT conference",
+      "date": "2023-11-01",
+      "awarder": "Sirindhorn International Institute of Technology",
+      "url": "",
+      "summary": "The publication Dominant Wave Height Estimation Based on Spectral Analysis for Coastal Erosion Monitoring Systems in Real Time received Best paper award in iSAI-NLP-AIoT conference."
     }
   ],
   "certificates": [],
