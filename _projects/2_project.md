@@ -2,7 +2,7 @@
 layout: page
 title: my portfolio website
 description: my portfolio website
-img: assets/img/profile_img.png
+img: assets/img/12.png
 importance: 2
 category: work
 giscus_comments: False

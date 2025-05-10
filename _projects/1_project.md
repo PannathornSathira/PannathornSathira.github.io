@@ -2,7 +2,7 @@
 layout: page
 title: The Tale of the Shattered Queen
 description: with background image
-img: assets/img/12.jpg
+img: assets/img/homepage_project1.jpg
 importance: 1
 category: fun
 related_publications: False
