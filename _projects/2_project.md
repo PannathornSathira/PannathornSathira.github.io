@@ -17,4 +17,3 @@ The website is a personal academic website built using the al-folio Jekyll theme
 + Prettier & Pre-commit Hooks: Configured for code formatting and maintaining code quality.
 + Lighthouse Reports: The lighthouse_results directory suggests performance audits have been conducted.
 
-{% endraw %}

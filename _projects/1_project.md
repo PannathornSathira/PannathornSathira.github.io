@@ -62,7 +62,3 @@ Graphics and sprite animations are loaded and managed using sprite sheets, while
 </div>
 
 Feel free to play our game at  <a href="https://github.com/PannathornSathira/the_tale_of_the_shattered_pig_queen">the_tale_of_the_shattered_pig_queen</a> 
-
-```
-
-{% endraw %}
