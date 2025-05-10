@@ -5,7 +5,7 @@ description: my portfolio website
 img: assets/img/profile_img.png
 importance: 2
 category: work
-giscus_comments: true
+giscus_comments: False
 ---
 
 The website is a personal academic website built using the al-folio Jekyll theme. 

@@ -2,10 +2,10 @@
 layout: page
 title: The Tale of the Shattered Queen
 description: with background image
-img: assets/img/homepage_project1.jpg
+img: assets/img/12.jpg
 importance: 1
 category: fun
-related_publications: true
+related_publications: False
 ---
 
 # Concept statement
